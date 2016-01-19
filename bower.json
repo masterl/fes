@@ -1,0 +1,28 @@
+{
+  "name": "PES",
+  "authors": [
+    "Leonardo de Oliveira Lourenço <bigodation@gmail.com>"
+  ],
+  "description": "Front-End Staging environment using Jade templates and SASS",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "frontend",
+    "development",
+    "sass",
+    "jade"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}
