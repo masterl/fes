@@ -5,6 +5,8 @@
 2. `npm install`
 3. `gulp`
 
+Project will run on `localhost:4000`
+
 ### Dependencies:
 - Ruby
 - Sass 3.4.20+
