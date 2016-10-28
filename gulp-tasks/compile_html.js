@@ -1,12 +1,10 @@
-var gulp = require('gulp');
-var jade = require('jade');
-var gulpJade = require('gulp-jade');
+const gulp     = require('gulp');
+const gulp_pug = require('gulp-pug');
 
 module.exports = function() {
-    return gulp.src('src/templates/*.jade')
-               .pipe(gulpJade({
-                   jade: jade,
-                   pretty: true
-               }))
-               .pipe(gulp.dest('build'));
+  return gulp.src('src/templates/*.jade')
+    .pipe(gulp_pug({
+      pretty: true
+    }))
+    .pipe(gulp.dest('build'));
 };

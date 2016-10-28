@@ -1,11 +1,12 @@
-var gulp = require('gulp');
-var express = require('express');
-var app = express();
+const gulp    = require('gulp');
+const express = require('express');
+const app     = express();
 
 module.exports = function(){
-        console.log(__dirname+'/../build');
-        app.use(require('connect-livereload')({port: 35729}));
-        app.use(express.static(__dirname+'/../build'));
-        app.listen(4000, '0.0.0.0');
+  console.log(__dirname+'/../build');
+  app.use(require('connect-livereload')({port: 35729}));
+  app.use(express.static(__dirname+'/../build'));
+  app.listen(4000, '0.0.0.0');
 };
+
 module.exports.dependencies = ['compile_sass','compile_html'];
