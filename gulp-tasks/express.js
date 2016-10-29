@@ -9,4 +9,4 @@ module.exports = function(){
   app.listen(4000, '0.0.0.0');
 };
 
-module.exports.dependencies = ['compile_sass','compile_html'];
+module.exports.dependencies = ['compile_stylus','compile_html'];

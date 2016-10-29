@@ -21,7 +21,7 @@ const notify = function notifyLiveReload(event) {
 require('gulp-task-loader')();
 
 gulp.task('default',['express','livereload'],function(){
-    gulp.watch('src/sass/**/*', ['compile_sass']);
+    gulp.watch('src/stylus/**/*', ['compile_stylus']);
     gulp.watch('src/templates/**/*.pug', ['compile_html']);
     gulp.watch('build/**/*', notify);
 });

@@ -1,16 +1,16 @@
 {
-  "name": "PES",
+  "name": "FES",
   "authors": [
     "Leonardo de Oliveira Lourenço <bigodation@gmail.com>"
   ],
-  "description": "Front-End Staging environment using Jade templates and SASS",
+  "description": "Front-End Staging environment using Pug templates and Stylus",
   "main": "",
   "moduleType": [],
   "keywords": [
     "frontend",
     "development",
-    "sass",
-    "jade"
+    "stylus",
+    "pug"
   ],
   "license": "MIT",
   "homepage": "",

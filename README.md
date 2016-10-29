@@ -8,19 +8,11 @@
 Project will run on `localhost:4000`
 
 ### Dependencies:
-- Ruby
-- Sass 3.4.20+
-  - `gem install sass`
-- node 5.4.0
-- npm 3.5.2
+- node 6.2.0 (tested on)
 - bower
   - `npm install -g bower`
 - gulp
-  - `npm install -g gulp`
+  - `npm install -g gulp-cli`
 
 #### Dev Dependencies:
 - Those above
-- Bourbon 4.2.6+
-  - `gem install bourbon`
-- Neat
-  - `gem install neat`
