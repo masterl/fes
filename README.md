@@ -1,5 +1,10 @@
 ## FES - Front-End Stage
 
+## Features:
+- Autoreload
+- [Stylus](http://stylus-lang.com/) for styling
+- [Pug](https://pugjs.org) for templates
+
 ### Start:
 1. `bower install`
 2. `npm install`
