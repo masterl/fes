@@ -1,11 +1,13 @@
+'use strict';
+
 const gulp   = require('gulp');
 const stylus = require('gulp-stylus');
 
-module.exports = function() {
+module.exports = () => {
   return gulp.src('src/stylus/main.styl')
     .pipe(stylus({
       'include css': true,
-      compress: true
+      compress:      true
     }))
     .pipe(gulp.dest('build/css'));
 };

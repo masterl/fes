@@ -1,7 +1,9 @@
+'use strict';
+
 const gulp     = require('gulp');
 const gulp_pug = require('gulp-pug');
 
-module.exports = function() {
+module.exports = () => {
   return gulp.src('src/templates/*.pug')
     .pipe(gulp_pug({
       pretty: true

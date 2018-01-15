@@ -4,7 +4,8 @@
   "description": "Front-End Staging environment using Pug templates and Stylus",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint ."
   },
   "keywords": [
     "frontend",
@@ -16,6 +17,12 @@
   "license": "MIT",
   "devDependencies": {
     "connect-livereload": "^0.6.0",
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
     "express": "^4.16.2",
     "gulp": "^3.9.1",
     "gulp-cssnano": "^2.1.2",
