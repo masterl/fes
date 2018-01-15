@@ -13,7 +13,7 @@
 Project will run on `localhost:4000`
 
 ### Dependencies:
-- node 6.2.0 (tested on)
+- node 8.8.1 (tested on)
 - bower
   - `npm install -g bower`
 - gulp
