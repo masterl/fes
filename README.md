@@ -5,19 +5,17 @@
 - [Stylus](http://stylus-lang.com/) for styling
 - [Pug](https://pugjs.org) for templates
 
-### Start:
-1. `bower install`
-2. `npm install`
-3. `gulp`
+### Start with livereloading:
+1. `npm install`
+2. `gulp startdev`
 
-Project will run on `localhost:4000`
+Project will run on `localhost:5000`
+
+### Just generate build:
+1. `npm install`
+2. `gulp`
 
 ### Dependencies:
-- node 8.8.1 (tested on)
-- bower
-  - `npm install -g bower`
+- node 11.15.0 (tested on)
 - gulp
   - `npm install -g gulp-cli`
-
-#### Dev Dependencies:
-- Those above
